@@ -1,0 +1,4828 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "693a2ae0-e30b-4983-b70f-e66a024820fd")
+	(paper "A3")
+	(lib_symbols
+		(symbol "PCM_Capacitor_US_AKL:C_0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_0603"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor ceramic chip mlcc smd 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0603_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0603_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -0.381 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -1.651 0.635)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 0.381) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy -0.635 1.651)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 1.651 -0.635)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C_0603_1_2"
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_LED_AKL:Worldsemi_WS2812B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Worldsemi_WS2812B"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "led RGB digital plcc4 5.0x5.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Worldsemi_WS2812B_0_1"
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 5.588) (xy 8.128 6.35)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 4.572) (xy 8.636 5.334)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 0 0)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -5.08) (xy 3.81 -3.81) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 30 200 30 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 3.81 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 240 30 30 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 1.27 2.54) (xy 3.81 3.81) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 70 70 200 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.493 6.35) (xy 7.747 5.842) (xy 8.128 6.35) (xy 7.493 6.35)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.001 5.334) (xy 8.255 4.826) (xy 8.636 5.334) (xy 8.001 5.334)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Worldsemi_WS2812B_1_1"
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -6.35) (xy -6.35 -6.35) (xy -6.35 6.35) (xy 5.08 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 5.08 -6.35)
+					(mid 7.7103 0)
+					(end 5.08 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 76.2 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05137b66-c101-4330-986c-21a1c7008fa0")
+	)
+	(junction
+		(at 172.72 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0557adce-f646-4095-8ea6-0b373525e6e2")
+	)
+	(junction
+		(at 93.98 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0aab30b4-e4bf-4989-a726-325182a1ba2f")
+	)
+	(junction
+		(at 271.78 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f970e7d-8b6a-4c14-9e91-cbb69c060f1c")
+	)
+	(junction
+		(at 129.54 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "128499e6-622d-4b8f-9bcb-7fd0a29f1116")
+	)
+	(junction
+		(at 261.62 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16d8d68d-74b9-408e-a273-2d2ca8a26f34")
+	)
+	(junction
+		(at 111.76 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c2847e2-002a-44c0-82bf-c108e79cdf85")
+	)
+	(junction
+		(at 182.88 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21b2a1a4-2c6c-442e-8edc-b7336843e533")
+	)
+	(junction
+		(at 254 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26f53a95-233f-4bba-bee8-3c5d067dd7d2")
+	)
+	(junction
+		(at 236.22 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e2132fa-2dbc-4b0a-939e-9bf7078ba5ee")
+	)
+	(junction
+		(at 254 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d529c01-b5a1-41d0-8d94-5422a2535c5e")
+	)
+	(junction
+		(at 101.6 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3db1311e-9c55-4cef-813c-f7ed3d065881")
+	)
+	(junction
+		(at 83.82 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fd5cd91-7725-4159-bbc4-1fa8b20558ee")
+	)
+	(junction
+		(at 154.94 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4311cdd1-9463-4296-9bdd-7605d21b904f")
+	)
+	(junction
+		(at 226.06 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47a6e8e2-3675-4ea7-aede-71ec956b6acd")
+	)
+	(junction
+		(at 129.54 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47d5386d-ca29-4a52-9aba-843c5488ebe9")
+	)
+	(junction
+		(at 226.06 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d66b68f-553b-42bd-83b9-dbaa15ed2149")
+	)
+	(junction
+		(at 147.32 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f863e91-b754-4652-bed2-7abf9c2ff11a")
+	)
+	(junction
+		(at 271.78 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51f94cd7-3879-44b3-a032-2b82ba2c06d6")
+	)
+	(junction
+		(at 297.18 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59741c9d-01c0-40c0-8217-e8444949e0bc")
+	)
+	(junction
+		(at 243.84 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aba70a4-387d-4d6d-b912-1ab0c76f27a4")
+	)
+	(junction
+		(at 289.56 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6082cfda-3e0b-4a75-babb-41bb49727df9")
+	)
+	(junction
+		(at 200.66 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63958945-14b9-4c92-b009-9cd0a69458ac")
+	)
+	(junction
+		(at 307.34 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "664549d9-ecee-4408-b943-c3aa993aae02")
+	)
+	(junction
+		(at 200.66 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6733fb85-5bef-4f39-86af-28bfea764543")
+	)
+	(junction
+		(at 218.44 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f120ee7-d7f3-44ca-abc0-a4043a56b942")
+	)
+	(junction
+		(at 279.4 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "779fbfbe-1d7e-42c2-8e28-ea5236fa1b61")
+	)
+	(junction
+		(at 93.98 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80a2f80d-281e-42fa-83b2-3f5171fdcef4")
+	)
+	(junction
+		(at 83.82 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d7980f4-e377-465c-a102-45ff29f6b077")
+	)
+	(junction
+		(at 208.28 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e2f9d87-b739-4707-a7c2-c7560b8e60d5")
+	)
+	(junction
+		(at 111.76 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91f2a8c1-11fd-4ff1-b46a-ec13338413c3")
+	)
+	(junction
+		(at 243.84 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93f4b42b-0202-4e90-80cf-c6b7a8f03519")
+	)
+	(junction
+		(at 76.2 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93f68f8f-4d68-4339-ab50-9a8b45906286")
+	)
+	(junction
+		(at 190.5 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96a74811-ec61-4bd1-9d9b-1823c4511f11")
+	)
+	(junction
+		(at 190.5 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9980b74b-8d08-4987-b0f9-5915c70a417d")
+	)
+	(junction
+		(at 147.32 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f60ff31-14d6-497f-b6e7-fdcd64eb3039")
+	)
+	(junction
+		(at 261.62 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a88d00db-fb49-45d5-901e-2d1217b36b45")
+	)
+	(junction
+		(at 172.72 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8ce6041-c13e-4fa9-bdfe-30df1c508e4f")
+	)
+	(junction
+		(at 236.22 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3a57195-3a8c-4ce0-b262-806e11536bc9")
+	)
+	(junction
+		(at 119.38 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b55b1fba-cca8-4f5a-b8ac-ca033b639c1e")
+	)
+	(junction
+		(at 289.56 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb870ad2-2af5-4463-bf1a-0085bd77f40e")
+	)
+	(junction
+		(at 218.44 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c05b1eb1-241d-4787-a483-606f07cd09fd")
+	)
+	(junction
+		(at 279.4 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c085b908-8142-4376-98e0-27ad70481fdd")
+	)
+	(junction
+		(at 208.28 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3c6c1e9-0dfe-4c3c-ac8d-6504671f66f0")
+	)
+	(junction
+		(at 119.38 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5d5407d-d08a-4385-80ca-e00faf0027d9")
+	)
+	(junction
+		(at 314.96 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8db6d46-460f-481c-8fa5-d160401f34c7")
+	)
+	(junction
+		(at 297.18 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5498c62-af98-4589-ae3c-e1445debe5eb")
+	)
+	(junction
+		(at 137.16 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7d22da7-7db8-4c0b-9044-26600ebd669b")
+	)
+	(junction
+		(at 101.6 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc2680dd-92b1-4bfd-8bc5-52fd6cf558f7")
+	)
+	(junction
+		(at 182.88 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4df2579-058b-4716-b4fd-fe7fc8c68960")
+	)
+	(junction
+		(at 137.16 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6775fdd-07c2-4104-97dd-1787e85bda2c")
+	)
+	(junction
+		(at 165.1 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f033bf96-62ef-4fd1-9535-58352b9cdae6")
+	)
+	(junction
+		(at 165.1 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7fc5eba-e03f-4ab5-8bda-a39566ed23d5")
+	)
+	(junction
+		(at 154.94 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdaaac13-da7a-475a-992c-1e5bfb13aaa3")
+	)
+	(no_connect
+		(at 312.42 68.58)
+		(uuid "680ef408-738e-4e82-bf70-a4645395cce7")
+	)
+	(wire
+		(pts
+			(xy 93.98 81.28) (xy 93.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048b23e5-7ead-4c04-89ba-1f8befaf4eea")
+	)
+	(wire
+		(pts
+			(xy 294.64 71.12) (xy 309.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0748daaf-68f1-4489-bf93-21594dbc1479")
+	)
+	(wire
+		(pts
+			(xy 99.06 68.58) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0861b17a-4b4b-44be-a330-9f66df54c72d")
+	)
+	(wire
+		(pts
+			(xy 289.56 81.28) (xy 271.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac0d209-7979-40bb-917a-2d3b7e79074a")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 101.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5af9a8-5f1d-496f-9a4c-ccf4a6406e6b")
+	)
+	(wire
+		(pts
+			(xy 114.3 71.12) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8fb6f9-ad73-4ec6-b8df-4414e2741aff")
+	)
+	(wire
+		(pts
+			(xy 261.62 76.2) (xy 261.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9c09ca-6997-45f3-93fb-806cb8ad8ebd")
+	)
+	(wire
+		(pts
+			(xy 83.82 76.2) (xy 83.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db8d0f1-03e0-465a-80b2-414a61110a2a")
+	)
+	(wire
+		(pts
+			(xy 271.78 76.2) (xy 271.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2b56b4-5b7b-4ff5-8655-6c87d5fac28b")
+	)
+	(wire
+		(pts
+			(xy 289.56 76.2) (xy 289.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f40f61c-fad6-4cba-887a-70e4b7a3c56e")
+	)
+	(wire
+		(pts
+			(xy 307.34 81.28) (xy 289.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13619b66-b3b5-46af-a950-dabdadf5d40c")
+	)
+	(wire
+		(pts
+			(xy 170.18 71.12) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155b0d3b-8a5c-4f5e-9761-b12680cf99fb")
+	)
+	(wire
+		(pts
+			(xy 172.72 86.36) (xy 154.94 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16392ccd-d825-451e-9ada-3c98cc371ab1")
+	)
+	(wire
+		(pts
+			(xy 152.4 71.12) (xy 167.64 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "171b1808-33ec-46e8-8a5b-33e3e583ff12")
+	)
+	(wire
+		(pts
+			(xy 276.86 68.58) (xy 276.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1860d95b-e404-4bc2-9f4f-ebeb42160f92")
+	)
+	(wire
+		(pts
+			(xy 223.52 68.58) (xy 223.52 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e881f6-e951-4942-b7f7-3f644148c8a5")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8ab313-d30e-4642-b270-4900506d5cd4")
+	)
+	(wire
+		(pts
+			(xy 314.96 76.2) (xy 314.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20bf13af-0f85-4df2-8ac9-7d8f2344cd10")
+	)
+	(wire
+		(pts
+			(xy 243.84 76.2) (xy 243.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d7e728-2e3b-44a6-b575-88f96fc82a91")
+	)
+	(wire
+		(pts
+			(xy 243.84 86.36) (xy 226.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22228890-5b87-454d-8f41-2d6c6123e36a")
+	)
+	(wire
+		(pts
+			(xy 259.08 68.58) (xy 259.08 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23491d93-bf6b-4ac7-8ab9-b80530f53177")
+	)
+	(wire
+		(pts
+			(xy 261.62 68.58) (xy 261.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2468952c-1a36-45dc-ae35-cbae74aa8ef3")
+	)
+	(wire
+		(pts
+			(xy 154.94 68.58) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d66b4e-d6d1-449c-98c5-b43153cba066")
+	)
+	(wire
+		(pts
+			(xy 182.88 68.58) (xy 182.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b178cd-c34b-4af0-9f7e-ac362536cf99")
+	)
+	(wire
+		(pts
+			(xy 259.08 71.12) (xy 274.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276d5a84-2f22-4767-a810-9a6cbb0ea49d")
+	)
+	(wire
+		(pts
+			(xy 81.28 71.12) (xy 96.52 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27fa3854-7467-474b-bf76-9015c0206be9")
+	)
+	(wire
+		(pts
+			(xy 190.5 68.58) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6ccb4b-73dc-419a-92b5-5b76796d6c13")
+	)
+	(wire
+		(pts
+			(xy 241.3 68.58) (xy 241.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f119151-cfb3-47db-86c3-e15c5f995d48")
+	)
+	(wire
+		(pts
+			(xy 64.77 86.36) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f26e7fd-ea23-41e4-be65-d2eedc6db9f3")
+	)
+	(wire
+		(pts
+			(xy 119.38 76.2) (xy 119.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359bbc3c-c67e-4313-8e48-20e9cf026828")
+	)
+	(wire
+		(pts
+			(xy 81.28 68.58) (xy 81.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3942ccd3-97e0-4d9b-af2e-acfc3b99c0c9")
+	)
+	(wire
+		(pts
+			(xy 83.82 86.36) (xy 83.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac6a62b-9e5f-4399-9f2c-e62e587d7d57")
+	)
+	(wire
+		(pts
+			(xy 64.77 81.28) (xy 76.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b6b8215-4aa5-497f-9fdd-b55b2c93171f")
+	)
+	(wire
+		(pts
+			(xy 314.96 86.36) (xy 297.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b709a69-20ac-4bc0-af96-7f819d0e389c")
+	)
+	(wire
+		(pts
+			(xy 205.74 71.12) (xy 220.98 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d678720-b888-4a3e-b6b8-ed46c93dd4e1")
+	)
+	(wire
+		(pts
+			(xy 129.54 76.2) (xy 129.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3ecc3f-a535-4b45-a32c-634f6b32d1e8")
+	)
+	(wire
+		(pts
+			(xy 165.1 81.28) (xy 147.32 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb027ee-d12e-44d1-8514-6e64749a954a")
+	)
+	(wire
+		(pts
+			(xy 185.42 71.12) (xy 185.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c7f8bd-0010-4fbc-9ede-431f6a479a90")
+	)
+	(wire
+		(pts
+			(xy 200.66 76.2) (xy 200.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45dd13fa-6a28-4558-bd7d-e724c716bd92")
+	)
+	(wire
+		(pts
+			(xy 254 68.58) (xy 254 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47faffb6-3087-4af3-ba52-fad66d411ce3")
+	)
+	(wire
+		(pts
+			(xy 226.06 86.36) (xy 208.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4930abac-e5bd-4719-bc94-d5670ae6127a")
+	)
+	(wire
+		(pts
+			(xy 200.66 81.28) (xy 182.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa1d323-4115-44d3-9137-36af1f4e12eb")
+	)
+	(wire
+		(pts
+			(xy 241.3 71.12) (xy 256.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae00914-19e8-4957-8bcb-eaf64a3d522d")
+	)
+	(wire
+		(pts
+			(xy 218.44 81.28) (xy 200.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2ddbd8-de70-43f7-8d92-fc933e103e01")
+	)
+	(wire
+		(pts
+			(xy 147.32 81.28) (xy 129.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd8b1da-a173-4b89-9faa-995b491417db")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.28) (xy 93.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518608a3-225b-4cb4-8a3f-71deeccfc2a7")
+	)
+	(wire
+		(pts
+			(xy 256.54 71.12) (xy 256.54 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568dea42-a88b-497c-8157-b3dffc9659c5")
+	)
+	(wire
+		(pts
+			(xy 289.56 68.58) (xy 289.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c66145e-c3a8-432a-90cc-a8f361016207")
+	)
+	(wire
+		(pts
+			(xy 116.84 68.58) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c87fed9-a3f2-41bd-898a-7f9c1ab789c3")
+	)
+	(wire
+		(pts
+			(xy 187.96 71.12) (xy 203.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d197ae0-014a-495b-8815-0278afcfafea")
+	)
+	(wire
+		(pts
+			(xy 64.77 71.12) (xy 78.74 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e14c594-bff9-437e-b6af-48a101907537")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 152.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6281d8-4bcc-4a0c-b9be-444accb05723")
+	)
+	(wire
+		(pts
+			(xy 279.4 86.36) (xy 261.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eec697a-d9c1-4a26-ab58-98a6f045842c")
+	)
+	(wire
+		(pts
+			(xy 254 81.28) (xy 236.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe62038-9869-4068-95a4-2665a741bb97")
+	)
+	(wire
+		(pts
+			(xy 119.38 86.36) (xy 101.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65bc0e02-f8dc-4642-8940-1581e42ef0ae")
+	)
+	(wire
+		(pts
+			(xy 223.52 71.12) (xy 238.76 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "692a8adc-6f83-4c8a-a60f-721bd9199b0a")
+	)
+	(wire
+		(pts
+			(xy 147.32 68.58) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bbadf03-9f46-40a0-9034-ff722b874992")
+	)
+	(wire
+		(pts
+			(xy 208.28 86.36) (xy 190.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d19bfbc-6eb7-4341-8407-59c98ad62948")
+	)
+	(wire
+		(pts
+			(xy 93.98 76.2) (xy 93.98 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8772b3-ecd1-4fb6-8d94-122c50c7afc4")
+	)
+	(wire
+		(pts
+			(xy 190.5 76.2) (xy 190.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e34d348-c735-4690-960f-c66b11582b11")
+	)
+	(wire
+		(pts
+			(xy 279.4 68.58) (xy 279.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec5c3e3-edfd-4f3e-8414-926a96430dc2")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c5a4a6-02ac-4f9e-bef4-ea08a34ca4bc")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 114.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72fae55b-0e8e-4eab-95a1-aa5806161749")
+	)
+	(wire
+		(pts
+			(xy 96.52 71.12) (xy 96.52 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79389018-fbc5-4e40-b899-4d7724dae11a")
+	)
+	(wire
+		(pts
+			(xy 307.34 68.58) (xy 307.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af0c28c-1cd3-44ab-9c35-fe2ae69766d8")
+	)
+	(wire
+		(pts
+			(xy 182.88 76.2) (xy 182.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d16c9df-bca4-4479-9205-94e02195606d")
+	)
+	(wire
+		(pts
+			(xy 167.64 71.12) (xy 167.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836cbac3-8829-4435-b1e4-e28b174bd65b")
+	)
+	(wire
+		(pts
+			(xy 297.18 68.58) (xy 297.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891cb285-388d-4ad3-816f-95a6979da8cb")
+	)
+	(wire
+		(pts
+			(xy 254 76.2) (xy 254 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7908b0-75ac-4e5a-9efa-42b3c1d1e5b8")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936653fe-012f-48e0-8e3a-6b1e015dc67f")
+	)
+	(wire
+		(pts
+			(xy 170.18 68.58) (xy 170.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937ffe93-4ade-4c7c-bf2a-7c5bda7d5b5f")
+	)
+	(wire
+		(pts
+			(xy 314.96 68.58) (xy 314.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944528fe-5076-4bb1-890d-31e5e90cbb37")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94810a6a-dbe4-411a-bb61-d5b4078aa735")
+	)
+	(wire
+		(pts
+			(xy 279.4 76.2) (xy 279.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998ea702-18f2-4eef-8b2d-8ec57059f835")
+	)
+	(wire
+		(pts
+			(xy 297.18 76.2) (xy 297.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d7a828-3039-48f4-aa18-c968c3493ba0")
+	)
+	(wire
+		(pts
+			(xy 76.2 68.58) (xy 76.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99faf8e6-0cc4-412c-b6cf-fd32eb09cf5a")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 137.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a614758-abbd-4525-ac1d-59bc4cc3de40")
+	)
+	(wire
+		(pts
+			(xy 129.54 68.58) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba959e1-cde4-4798-88e9-33f17d50d62b")
+	)
+	(wire
+		(pts
+			(xy 261.62 86.36) (xy 243.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbdf8a4-4086-4855-989e-52cf11b0190b")
+	)
+	(wire
+		(pts
+			(xy 208.28 68.58) (xy 208.28 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f53448-af39-4cd0-9005-45902c90752b")
+	)
+	(wire
+		(pts
+			(xy 236.22 68.58) (xy 236.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6500ed0-d500-4e5a-bcfb-8342aac74425")
+	)
+	(wire
+		(pts
+			(xy 276.86 71.12) (xy 292.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6811d1d-fd7e-4987-8e6f-dfb50841cc53")
+	)
+	(wire
+		(pts
+			(xy 218.44 76.2) (xy 218.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa1aa533-19b7-472e-97e7-cde844482d19")
+	)
+	(wire
+		(pts
+			(xy 154.94 86.36) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa1e358a-2f98-461a-ba37-d1be1ddd2c7f")
+	)
+	(wire
+		(pts
+			(xy 147.32 76.2) (xy 147.32 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6e8740-fb9d-4d7e-870c-8ad7460ae045")
+	)
+	(wire
+		(pts
+			(xy 111.76 76.2) (xy 111.76 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adce8aa6-6548-4aa5-ab91-f891c4142d99")
+	)
+	(wire
+		(pts
+			(xy 134.62 68.58) (xy 134.62 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adde74bb-6f6f-4810-83f9-55655d7dcd7d")
+	)
+	(wire
+		(pts
+			(xy 203.2 71.12) (xy 203.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae085c27-2d0b-412a-bd3d-5b7aa806ea74")
+	)
+	(wire
+		(pts
+			(xy 294.64 68.58) (xy 294.64 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4740a7-3962-4daf-a293-4798b958c1f9")
+	)
+	(wire
+		(pts
+			(xy 271.78 81.28) (xy 254 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c930dc-95cc-4ef0-bbd9-3d458ed39537")
+	)
+	(wire
+		(pts
+			(xy 137.16 86.36) (xy 119.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64ac766-4d70-45c7-8b2f-82902f404499")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2) (xy 154.94 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baaf09ee-f3f7-4706-90f8-96bc7db6d651")
+	)
+	(wire
+		(pts
+			(xy 208.28 76.2) (xy 208.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40a4e21-9e7c-47ed-8d34-82c8669093f5")
+	)
+	(wire
+		(pts
+			(xy 111.76 81.28) (xy 93.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6002590-f140-49e4-b25b-d046392df2bd")
+	)
+	(wire
+		(pts
+			(xy 238.76 71.12) (xy 238.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81f8cf4-a3f9-4310-8117-13942e5f5cf4")
+	)
+	(wire
+		(pts
+			(xy 236.22 76.2) (xy 236.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1ef117-5674-4598-908f-222b87d1b3df")
+	)
+	(wire
+		(pts
+			(xy 132.08 71.12) (xy 132.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8fec58-da91-48fc-9c0a-bee7383be399")
+	)
+	(wire
+		(pts
+			(xy 165.1 68.58) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdce8870-f195-400f-82fb-a70f7be7a5ba")
+	)
+	(wire
+		(pts
+			(xy 292.1 71.12) (xy 292.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9d70d9-3899-4c87-88e5-50e41aeabbef")
+	)
+	(wire
+		(pts
+			(xy 274.32 71.12) (xy 274.32 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0fd8944-1de6-4111-ac5b-add364d9fc20")
+	)
+	(wire
+		(pts
+			(xy 149.86 71.12) (xy 149.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1193014-f5f9-43d4-a4ea-76adbb372beb")
+	)
+	(wire
+		(pts
+			(xy 271.78 68.58) (xy 271.78 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f83fa2-4679-4448-800c-e3122c253cf9")
+	)
+	(wire
+		(pts
+			(xy 205.74 68.58) (xy 205.74 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40a01f7-c106-43e2-abb4-a8bbe7e63ab6")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.28) (xy 76.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62a2a2a-9407-4ebd-bdc2-3be5af9fa175")
+	)
+	(wire
+		(pts
+			(xy 236.22 81.28) (xy 218.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b982a2-1905-40e0-a3c3-3cf469f1e416")
+	)
+	(wire
+		(pts
+			(xy 226.06 68.58) (xy 226.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf84f9d-1e6f-4e4c-b197-6710b2566bcf")
+	)
+	(wire
+		(pts
+			(xy 218.44 68.58) (xy 218.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1d9f7b-4fa2-477b-b179-f0779730f567")
+	)
+	(wire
+		(pts
+			(xy 78.74 71.12) (xy 78.74 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd772f30-4989-4780-aaf8-76d446013e1f")
+	)
+	(wire
+		(pts
+			(xy 307.34 76.2) (xy 307.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e01f958f-4f79-4252-899a-552c5beb13db")
+	)
+	(wire
+		(pts
+			(xy 172.72 76.2) (xy 172.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f54ead-5827-42d1-9277-b57edfa849d0")
+	)
+	(wire
+		(pts
+			(xy 129.54 81.28) (xy 111.76 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23d2e95-aa5c-4de4-80c5-0ba8be29343e")
+	)
+	(wire
+		(pts
+			(xy 243.84 68.58) (xy 243.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e523b68b-9417-4157-8e53-38b641a8186b")
+	)
+	(wire
+		(pts
+			(xy 101.6 68.58) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ae1768-9e9e-42be-aa1f-6b7b3dca63ba")
+	)
+	(wire
+		(pts
+			(xy 182.88 81.28) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79d8612-dd5a-4229-b904-95adf5efb4e3")
+	)
+	(wire
+		(pts
+			(xy 172.72 68.58) (xy 172.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf277c5-6d8d-407c-8002-0d70b817150f")
+	)
+	(wire
+		(pts
+			(xy 119.38 68.58) (xy 119.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edcde86a-9659-46b9-9bab-3f9322cbf485")
+	)
+	(wire
+		(pts
+			(xy 187.96 68.58) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef3a3b9e-47e8-49fd-b899-48c749b2d368")
+	)
+	(wire
+		(pts
+			(xy 200.66 68.58) (xy 200.66 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc1d6a7-1a56-4a81-ab16-82874a802671")
+	)
+	(wire
+		(pts
+			(xy 297.18 86.36) (xy 279.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f26240a1-bfd4-42c3-bd3a-7c4959699415")
+	)
+	(wire
+		(pts
+			(xy 309.88 71.12) (xy 309.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f63f86-8189-418f-acc4-ab33bbec67bf")
+	)
+	(wire
+		(pts
+			(xy 134.62 71.12) (xy 149.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c4a19e-d252-4574-9563-a9f7a4e17ff5")
+	)
+	(wire
+		(pts
+			(xy 220.98 71.12) (xy 220.98 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7edc904-9e05-4e95-b3a4-dd75b0d6b6c9")
+	)
+	(wire
+		(pts
+			(xy 226.06 76.2) (xy 226.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9eca45c-59df-413d-a23f-a52e67b5db39")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 132.08 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2888dd-bedf-4e7f-a18e-1134512bb353")
+	)
+	(wire
+		(pts
+			(xy 190.5 86.36) (xy 172.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff48e26e-a7b5-499b-8e3d-5b0caa4a8832")
+	)
+	(global_label "RGB"
+		(shape input)
+		(at 64.77 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efedaa5f-3d78-46e5-a01e-e306fe2f9d8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.9748 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 80.01 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09546760-6a0b-46ea-b262-42db352b0e4b")
+		(property "Reference" "C1"
+			(at 80.01 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 80.01 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 83.82 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12d0d5c2-0198-4796-a4c0-fd5d05b8c69b")
+		)
+		(pin "1"
+			(uuid "992fef39-fcd3-4c8d-b225-2a028e835ed0")
+		)
+		(instances
+			(project ""
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 293.37 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17c36771-2593-4f78-8403-9cfc64202362")
+		(property "Reference" "LED13"
+			(at 300.99 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 300.99 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 293.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 288.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 290.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 293.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b332c2a9-a4dc-4af6-a4a9-6dbd421941ff")
+		)
+		(pin "2"
+			(uuid "9e08eb0e-80c3-4fd6-9b4b-4a89a0378a59")
+		)
+		(pin "3"
+			(uuid "db91c122-d391-4f43-b59d-5fca7c021092")
+		)
+		(pin "4"
+			(uuid "2a49573f-2d07-44f8-a2dd-0bc620a9c503")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 222.25 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "241bf54d-691a-4ac4-8b5f-285747bd8df3")
+		(property "Reference" "C9"
+			(at 222.25 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 222.25 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 226.06 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "962c26f8-ee97-4684-bfe0-b34c1a84886f")
+		)
+		(pin "1"
+			(uuid "99e559bb-341e-4f7a-9bba-44e2b608cda5")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 204.47 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24f66b9f-a73c-4d5d-8502-1979e90933e2")
+		(property "Reference" "C8"
+			(at 204.47 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 204.47 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 208.28 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97e1c471-836d-4a71-b44e-4bc78a1d5447")
+		)
+		(pin "1"
+			(uuid "ff172ecb-d720-47fc-b88c-1ac28f22002c")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 133.35 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27b7fa62-8979-4bcd-8256-f62441c404b6")
+		(property "Reference" "LED4"
+			(at 140.97 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 140.97 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 128.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 130.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89fa3524-0b87-49b6-b0cd-edb100e25419")
+		)
+		(pin "2"
+			(uuid "71f7a678-209c-4acb-a654-ee4886c798ca")
+		)
+		(pin "3"
+			(uuid "13625523-3388-475d-8d07-529fdc372954")
+		)
+		(pin "4"
+			(uuid "ed1e8521-6ce0-4aad-b55c-f0634d3605b3")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28d78ed9-2dcf-4c61-ae8e-0f5ab764489c")
+		(property "Reference" "#PWR028"
+			(at 58.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 61.468 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05eb9db6-6e22-4561-827a-79be99152ad5")
+		)
+		(instances
+			(project "SlothBoard2040"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 97.79 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29da5f00-4166-4851-a02b-03359f37475a")
+		(property "Reference" "C2"
+			(at 97.79 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 97.79 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 101.6 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f93a3b5c-758e-4c3b-9589-9cffa7c1eadb")
+		)
+		(pin "1"
+			(uuid "d62ec785-0c7e-40a5-82dd-b35e373c8108")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 186.69 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ab5bc21-4552-4273-ba0f-47ae6e215aa5")
+		(property "Reference" "C7"
+			(at 186.69 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 186.69 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 190.5 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da7e00f6-e0a9-42a6-a401-3ecc94dc7804")
+		)
+		(pin "1"
+			(uuid "5e358e06-c7ee-4bb5-870a-3c0ba370c0ff")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 240.03 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f813b41-c51a-44ec-987b-c35680f49947")
+		(property "Reference" "LED10"
+			(at 247.65 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 247.65 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 234.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 237.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15aeeb03-3408-4a6d-b559-fa28a5f79a3a")
+		)
+		(pin "2"
+			(uuid "d4e4f8e7-adec-4190-8a24-2c2ff49b998e")
+		)
+		(pin "3"
+			(uuid "0c147053-49fa-443d-9f0b-523c1d534f5a")
+		)
+		(pin "4"
+			(uuid "3b783cc0-f04c-477d-888f-30d7684a648c")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 80.01 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4281fa44-9c48-46d5-9ec1-7d5fb237839f")
+		(property "Reference" "LED1"
+			(at 87.63 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 87.63 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 80.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 74.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 80.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a574f518-6ecb-4677-bf83-e3323f8d5ece")
+		)
+		(pin "2"
+			(uuid "48076e87-c6a0-4cd3-a751-c4293be537c6")
+		)
+		(pin "3"
+			(uuid "68ed7096-c167-4c63-9014-8cb1df6c4b31")
+		)
+		(pin "4"
+			(uuid "b209fae1-96c3-4c69-b626-35372a753da6")
+		)
+		(instances
+			(project ""
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 257.81 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f58512b-f52d-497b-9576-6836b64dad15")
+		(property "Reference" "LED11"
+			(at 265.43 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 265.43 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 257.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 252.73 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 255.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 257.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5326f639-cfbe-4d60-976f-5f62ccc04985")
+		)
+		(pin "2"
+			(uuid "2d32410c-3cf8-481d-8223-873819a5bcd8")
+		)
+		(pin "3"
+			(uuid "0f90e4ae-ebf3-45a9-9ae9-afe885604f6f")
+		)
+		(pin "4"
+			(uuid "e4638dcd-8597-431f-9144-3b56016a4010")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 222.25 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56258c4b-6ea0-45f4-9a92-29ef4d2bd550")
+		(property "Reference" "LED9"
+			(at 229.87 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 229.87 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 217.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61d9c603-8606-40fb-a0b8-5a4014ce8a0a")
+		)
+		(pin "2"
+			(uuid "3bde5340-89e4-4726-8426-44a50577c3a6")
+		)
+		(pin "3"
+			(uuid "133b185d-ba2e-4284-b4da-f0fda6fa6728")
+		)
+		(pin "4"
+			(uuid "df911c72-2214-454f-8911-3ad928f3a826")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 186.69 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "600764b1-9cda-407b-a1e8-8e38c2e23a7a")
+		(property "Reference" "LED7"
+			(at 194.31 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 194.31 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 181.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 184.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25586901-4b09-4600-8396-f61ab802bb56")
+		)
+		(pin "2"
+			(uuid "40793657-3f2f-4773-9740-f7d413f43aa4")
+		)
+		(pin "3"
+			(uuid "5029cac5-aa9e-4da2-90f4-faca72ba10dc")
+		)
+		(pin "4"
+			(uuid "4fdeaa7d-f844-439d-bf2e-e30ed607734d")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 293.37 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6642d3f0-15a4-4a3c-b0aa-88c7cd034cf8")
+		(property "Reference" "C13"
+			(at 293.37 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 293.37 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 297.18 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 293.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 293.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fea5f090-f90e-4304-b51b-caea4948000e")
+		)
+		(pin "1"
+			(uuid "482fe29a-7746-4287-aef8-9799a7cd9361")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 115.57 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a936696-c44b-418f-9f64-9319038244a4")
+		(property "Reference" "C3"
+			(at 115.57 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 115.57 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 119.38 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d44aa781-390f-4e5a-8f7e-b23a125dffc5")
+		)
+		(pin "1"
+			(uuid "e2786be4-b4ba-4e04-9fd6-d991bcd21187")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 240.03 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c64d420-b48a-450c-919b-e268e331d9bb")
+		(property "Reference" "C10"
+			(at 240.03 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 240.03 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 243.84 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e3d33c3-dd3f-4373-a716-84203432c70e")
+		)
+		(pin "1"
+			(uuid "92acbe32-7014-4fa9-84d0-3d455eb2c9e5")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 168.91 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "773c0433-0291-433e-bc20-775247d98e6c")
+		(property "Reference" "C6"
+			(at 168.91 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 168.91 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 172.72 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ae365c2-f58b-4006-a5be-114876f7fc02")
+		)
+		(pin "1"
+			(uuid "84973238-4c3f-4d51-9942-4711185651da")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 115.57 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84894ec5-9231-441c-bfda-eab0ad3f8e3d")
+		(property "Reference" "LED3"
+			(at 123.19 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 123.19 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 113.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b818a1e-591f-4c60-a3f7-7e7209b7ff0c")
+		)
+		(pin "2"
+			(uuid "9c7d6707-6f89-4c98-a008-1d1868a445e8")
+		)
+		(pin "3"
+			(uuid "0fcb8236-72fb-4f56-863c-cf706349fdef")
+		)
+		(pin "4"
+			(uuid "25055b87-1b2d-4820-a04e-75f56224bd53")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 275.59 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89fbddee-2de8-4738-9dcb-630c07dddc24")
+		(property "Reference" "C12"
+			(at 275.59 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 275.59 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 279.4 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 275.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 275.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5828cc3-2097-46b5-bb77-42df54760a26")
+		)
+		(pin "1"
+			(uuid "62d9e007-21f2-42c7-9761-15d214fa7181")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 97.79 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a13ad45-0541-4dff-88b8-7d557a2cb2ff")
+		(property "Reference" "LED2"
+			(at 105.41 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 105.41 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 92.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b6006cf-42f1-4258-9b6e-9446b6c3b049")
+		)
+		(pin "2"
+			(uuid "ee3b37ac-895a-4d6d-9e9f-aab153c28dc3")
+		)
+		(pin "3"
+			(uuid "77824023-8679-444e-92d8-a65a7356ee5d")
+		)
+		(pin "4"
+			(uuid "dfb47d86-8ae2-48b3-b73f-40fa5c086ac9")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 151.13 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0d1c695-5e25-419e-8023-9a6722cd6543")
+		(property "Reference" "LED5"
+			(at 158.75 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 158.75 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 146.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 148.59 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3be7c10-894d-4779-943e-05b95bfcc91c")
+		)
+		(pin "2"
+			(uuid "f7cc6e75-8e76-4af7-8b64-df991fe70036")
+		)
+		(pin "3"
+			(uuid "f0bb9a17-676e-4081-b068-9a2fddb677f4")
+		)
+		(pin "4"
+			(uuid "1e52a60c-1833-4e55-a4e4-3bdfc4ac8c7f")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 64.77 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b36ef5b6-4f11-4172-83a6-60a61bc9948f")
+		(property "Reference" "#PWR027"
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.96 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 64.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4924bfc2-38f1-45b9-8d8f-b072a272e664")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 133.35 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bab60015-b31e-4f04-b26e-d8f4218693cb")
+		(property "Reference" "C4"
+			(at 133.35 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 133.35 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 137.16 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f1768c4-82d4-42e5-84de-d5ae39b28039")
+		)
+		(pin "1"
+			(uuid "0ad646b0-ce05-4d3a-b1a9-cb651f6a7488")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 311.15 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4101f7a-c2fe-42ab-ab21-50eb64b43053")
+		(property "Reference" "C14"
+			(at 311.15 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 311.15 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 314.96 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 311.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 311.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d50cedbb-74b6-411c-9e1d-e9b3e999d5bb")
+		)
+		(pin "1"
+			(uuid "e349f256-7f04-4513-8635-5042126fab88")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 168.91 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfff44f5-447a-400c-9787-ce5d6c232fed")
+		(property "Reference" "LED6"
+			(at 176.53 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 176.53 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 163.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 166.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcc583af-5da7-4e52-a927-5a56463b03c9")
+		)
+		(pin "2"
+			(uuid "e30bfdac-4c96-4fd0-99b6-6c442813cf34")
+		)
+		(pin "3"
+			(uuid "ab30fa2d-a54f-439b-adcf-c4838711fc15")
+		)
+		(pin "4"
+			(uuid "fc9ea671-2ee0-43bb-a68a-32350520b6ba")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 151.13 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1bcee01-2468-495c-b0ae-9da740ea5802")
+		(property "Reference" "C5"
+			(at 151.13 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 151.13 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 154.94 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "509e6426-4666-4c1b-9c38-006651b8756f")
+		)
+		(pin "1"
+			(uuid "a4d05019-112f-4ef6-9379-efb7374b27f6")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 311.15 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3dff72a-7e31-4662-9023-3aff4f688332")
+		(property "Reference" "LED14"
+			(at 318.77 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 318.77 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 311.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 306.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 308.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 311.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09ee00d7-e9b2-4eb6-888a-f9223b54528d")
+		)
+		(pin "2"
+			(uuid "9baefe56-b855-49a4-bc90-9f9f99e1013d")
+		)
+		(pin "3"
+			(uuid "83aeea03-d752-4eed-83ca-7b4d164bc562")
+		)
+		(pin "4"
+			(uuid "4d3f3571-853e-40f6-af3d-287fa12d299c")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 257.81 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d89ece88-db56-4f20-9276-1c3c4e9bd88b")
+		(property "Reference" "C11"
+			(at 257.81 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 257.81 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 261.62 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4963385-8bfa-4750-a93f-6aa6f29e6588")
+		)
+		(pin "1"
+			(uuid "2ad3ba31-6084-4e45-97be-629b3764b4f6")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 204.47 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6763637-2841-46ba-bdee-6e92bbcfe8a1")
+		(property "Reference" "LED8"
+			(at 212.09 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 212.09 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 199.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 201.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "250992f7-ae3a-4e61-b0dc-7be0878e8ba2")
+		)
+		(pin "2"
+			(uuid "d8ecc82d-4382-471a-9cc6-d061b0bf7aeb")
+		)
+		(pin "3"
+			(uuid "c8c3c6cd-6dca-48a3-bfc4-281a5efb8c6e")
+		)
+		(pin "4"
+			(uuid "c8f1b072-137b-41b9-962f-5bbbac018532")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 275.59 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2ef741a-8b9c-47f9-8763-50d0eeb8b834")
+		(property "Reference" "LED12"
+			(at 283.21 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 283.21 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 275.59 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 270.51 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 273.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 275.59 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09af011b-4a1f-4497-a1ef-68366ca70cbf")
+		)
+		(pin "2"
+			(uuid "147fb8fb-ad4a-4d19-b384-0522293a7193")
+		)
+		(pin "3"
+			(uuid "6d3fa94c-28ed-4163-a5f5-eac44cd9c1c0")
+		)
+		(pin "4"
+			(uuid "17d14a48-b832-4afd-938a-2e2085f1cb2a")
+		)
+		(instances
+			(project "SlothBoard_rev1"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
