@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "693a2ae0-e30b-4983-b70f-e66a024820fd")
 	(paper "A3")
 	(lib_symbols
 		(symbol "PCM_Capacitor_US_AKL:C_0603"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +81,7 @@
 			(symbol "C_0603_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -216,24 +218,6 @@
 			)
 			(symbol "C_0603_1_2"
 				(pin passive line
-					(at 2.54 2.54 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -2.54 -2.54 90)
 					(length 0)
 					(name "~"
@@ -251,7 +235,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_LED_AKL:Worldsemi_WS2812B"
 			(exclude_from_sim no)
@@ -312,7 +315,7 @@
 			(symbol "Worldsemi_WS2812B_0_1"
 				(polyline
 					(pts
-						(xy 0 -3.81) (xy 1.27 -3.81)
+						(xy 0 3.81) (xy 1.27 3.81)
 					)
 					(stroke
 						(width 0)
@@ -336,7 +339,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 1.27 3.81)
+						(xy 0 -3.81) (xy 1.27 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -348,7 +351,46 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -3.81) (xy 5.08 -3.81)
+						(xy 1.27 5.08) (xy 1.27 2.54) (xy 3.81 3.81) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 70 70 200 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 3.81 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 240 30 30 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -5.08) (xy 3.81 -3.81) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 30 200 30 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 5.08 3.81)
 					)
 					(stroke
 						(width 0)
@@ -372,7 +414,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 3.81) (xy 5.08 3.81)
+						(xy 3.81 -3.81) (xy 5.08 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -409,45 +451,6 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 1.27 -5.08) (xy 3.81 -3.81) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 30 200 30 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 3.81 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 240 30 30 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 1.27 2.54) (xy 3.81 3.81) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 70 70 200 1)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.493 6.35) (xy 7.747 5.842) (xy 8.128 6.35) (xy 7.493 6.35)
 					)
 					(stroke
@@ -472,9 +475,21 @@
 				)
 			)
 			(symbol "Worldsemi_WS2812B_1_1"
+				(arc
+					(start 5.08 6.35)
+					(mid 7.7103 0)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
-						(xy 3.81 -5.08) (xy 3.81 -2.54)
+						(xy 3.81 2.54) (xy 3.81 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -498,7 +513,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 2.54) (xy 3.81 5.08)
+						(xy 3.81 -5.08) (xy 3.81 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -520,18 +535,6 @@
 						(type background)
 					)
 				)
-				(arc
-					(start 5.08 -6.35)
-					(mid 7.7103 0)
-					(end 5.08 6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(pin power_in line
 					(at -8.89 3.81 0)
 					(length 2.54)
@@ -543,6 +546,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -586,31 +607,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -682,7 +690,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -694,7 +702,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -725,6 +733,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -804,7 +813,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -821,6 +831,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
