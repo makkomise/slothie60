@@ -4,13 +4,13 @@
 
 - GH60-Compatible
 - Underglow
-- Support for Split Space, split Right Shift and stepped Caps
-- Support for QMK/VIA in the works
+- Support for split Right Shift and stepped Caps
+- Support for QMK/VIAL
 
 
-![image](https://i.imgur.com/30GPxfj.png)
+![image](https://i.imgur.com/p1GuzG0.png)
 
-![image](https://i.imgur.com/vXrQs6w.png)
+![image](https://i.imgur.com/x3n6Hry.png)
 ![image](https://i.imgur.com/MzQCfoy.png)
 
 ORDERING AT YOUR OWN RESPONSIBILITY! While i have confirmed that this works, order at your own discretion.
