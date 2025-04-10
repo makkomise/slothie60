@@ -437,12 +437,6 @@
 		(uuid "0eb54105-4dfe-4b62-b7cc-bfbf701c53f0")
 	)
 	(junction
-		(at 101.6 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0eb77033-a257-4877-8d5a-fcb11397f4d1")
-	)
-	(junction
 		(at 96.52 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -477,12 +471,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23b5fbe6-6390-4ef1-9b17-46f0b863aee4")
-	)
-	(junction
-		(at 144.78 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2595410c-ac03-429d-ba0a-34949072888b")
 	)
 	(junction
 		(at 185.42 91.44)
@@ -563,34 +551,16 @@
 		(uuid "44cce58d-ba60-4a1c-a944-72da617ba6c9")
 	)
 	(junction
-		(at 152.4 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48d9868e-e55b-4e07-9a9d-659207ddf4f5")
-	)
-	(junction
 		(at 220.98 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "527e8a2a-abbc-42ca-83ec-9d5931070590")
 	)
 	(junction
-		(at 119.38 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c5965a6-0ddb-413b-9007-75d81ed87bf7")
-	)
-	(junction
 		(at 160.02 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dcd18b3-acea-4517-a268-a58f6c613b09")
-	)
-	(junction
-		(at 144.78 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64d9dd34-30a1-43a5-9c86-50e3bad5f7ee")
 	)
 	(junction
 		(at 63.5 96.52)
@@ -633,12 +603,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "708471ac-b528-4c0e-8ca8-bcd82b62b055")
-	)
-	(junction
-		(at 139.7 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "793ecedc-c296-435e-8580-601c96fbda8a")
 	)
 	(junction
 		(at 119.38 91.44)
@@ -737,10 +701,10 @@
 		(uuid "a0f3d35c-4fc3-421e-bcb1-c5642444bd31")
 	)
 	(junction
-		(at 170.18 114.3)
+		(at 121.92 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a1ff8b73-23ee-4225-a475-7db23b0f5641")
+		(uuid "a35d4a82-fee9-4717-84b4-9a4b207cb600")
 	)
 	(junction
 		(at 172.72 129.54)
@@ -891,6 +855,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7448787-d2c6-439a-ad93-a48907668dd1")
+	)
+	(junction
+		(at 144.78 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc3a878a-37e0-4df7-8977-3382e959d908")
 	)
 	(junction
 		(at 210.82 91.44)
@@ -1104,6 +1074,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 144.78) (xy 139.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ae1c72-a583-4e2f-9f7d-e84dbda608f3")
+	)
+	(wire
+		(pts
 			(xy 210.82 114.3) (xy 210.82 137.16)
 		)
 		(stroke
@@ -1191,26 +1171,6 @@
 			(type default)
 		)
 		(uuid "213176cd-f13a-4893-bcde-09663def7b7e")
-	)
-	(wire
-		(pts
-			(xy 119.38 137.16) (xy 119.38 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22255c1c-5046-4bc5-8bc8-e6d6aa901aba")
-	)
-	(wire
-		(pts
-			(xy 139.7 144.78) (xy 144.78 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22b657a7-b1aa-42b5-a9a3-4ab5d00cce69")
 	)
 	(wire
 		(pts
@@ -1354,16 +1314,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 149.86) (xy 152.4 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "328e003f-8d74-4a72-b2f4-f8940d1fc6d4")
-	)
-	(wire
-		(pts
 			(xy 223.52 81.28) (xy 223.52 83.82)
 		)
 		(stroke
@@ -1474,16 +1424,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 114.3) (xy 170.18 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bbae89c-4e66-4589-a21e-cc182ef8c5fd")
-	)
-	(wire
-		(pts
 			(xy 63.5 96.52) (xy 63.5 99.06)
 		)
 		(stroke
@@ -1501,6 +1441,16 @@
 			(type default)
 		)
 		(uuid "3e6db690-d103-486d-8f32-ac5f0421a558")
+	)
+	(wire
+		(pts
+			(xy 144.78 114.3) (xy 144.78 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3bf28a-ae97-45b7-9d22-11063ee2adca")
 	)
 	(wire
 		(pts
@@ -1584,16 +1534,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 144.78 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46cbc220-1eb0-4eaf-acf3-1c32832b81e6")
-	)
-	(wire
-		(pts
 			(xy 190.5 142.24) (xy 190.5 144.78)
 		)
 		(stroke
@@ -1601,16 +1541,6 @@
 			(type default)
 		)
 		(uuid "488ca6da-5485-4260-a2dd-9052b2b42ca8")
-	)
-	(wire
-		(pts
-			(xy 139.7 142.24) (xy 139.7 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "489cda55-fe78-4eb5-8264-bb8d15db9538")
 	)
 	(wire
 		(pts
@@ -1784,7 +1714,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 152.4) (xy 101.6 152.4)
+			(xy 71.12 152.4) (xy 121.92 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1901,16 +1831,6 @@
 			(type default)
 		)
 		(uuid "70b0bb45-20ad-41bd-ba10-ce4e2f789800")
-	)
-	(wire
-		(pts
-			(xy 152.4 152.4) (xy 198.12 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71812000-3113-49db-b708-73fb394ab5a8")
 	)
 	(wire
 		(pts
@@ -2114,16 +2034,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 144.78) (xy 165.1 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d6dca16-024a-4a03-a61a-29d151ee5b0e")
-	)
-	(wire
-		(pts
 			(xy 172.72 81.28) (xy 172.72 83.82)
 		)
 		(stroke
@@ -2181,26 +2091,6 @@
 			(type default)
 		)
 		(uuid "9381280a-ac16-4c3a-a75b-b868b300c315")
-	)
-	(wire
-		(pts
-			(xy 142.24 137.16) (xy 144.78 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93ccd466-2f28-4018-9fb9-b29d76e4b876")
-	)
-	(wire
-		(pts
-			(xy 101.6 152.4) (xy 152.4 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9484c95a-90ca-454a-b372-fc78db61bb30")
 	)
 	(wire
 		(pts
@@ -2294,16 +2184,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 144.78) (xy 109.22 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e30133f-a8ed-4575-b746-35906e489df0")
-	)
-	(wire
-		(pts
 			(xy 139.7 73.66) (xy 139.7 76.2)
 		)
 		(stroke
@@ -2354,16 +2234,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 142.24) (xy 114.3 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7775cc1-7d94-4c6b-9c8a-1abb458f2bda")
-	)
-	(wire
-		(pts
 			(xy 198.12 60.96) (xy 172.72 60.96)
 		)
 		(stroke
@@ -2394,7 +2264,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 144.78) (xy 93.98 144.78)
+			(xy 88.9 144.78) (xy 114.3 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2431,6 +2301,16 @@
 			(type default)
 		)
 		(uuid "b4ec5300-ca80-4ffb-9136-7310152be273")
+	)
+	(wire
+		(pts
+			(xy 121.92 152.4) (xy 198.12 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6270bf3-5b73-4ce0-8802-9496b50c7218")
 	)
 	(wire
 		(pts
@@ -2594,16 +2474,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 142.24) (xy 139.7 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccf76ee6-fbd8-4474-9a8e-4168242bd8f7")
-	)
-	(wire
-		(pts
 			(xy 154.94 119.38) (xy 154.94 121.92)
 		)
 		(stroke
@@ -2744,7 +2614,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 149.86) (xy 101.6 152.4)
+			(xy 121.92 149.86) (xy 121.92 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2884,6 +2754,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 144.78) (xy 139.7 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f3ce13-a264-417c-bf9e-bca9ae3d0a52")
+	)
+	(wire
+		(pts
 			(xy 147.32 83.82) (xy 172.72 83.82)
 		)
 		(stroke
@@ -2951,16 +2831,6 @@
 			(type default)
 		)
 		(uuid "ff5aa428-424e-44d9-b678-150f64e26d3d")
-	)
-	(wire
-		(pts
-			(xy 165.1 144.78) (xy 165.1 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff8f445f-1899-4765-942a-523fb018d24f")
 	)
 	(global_label "Row4"
 		(shape input)
@@ -12078,7 +11948,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAV70")
-		(at 101.6 144.78 0)
+		(at 121.92 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12087,7 +11957,7 @@
 		(fields_autoplaced yes)
 		(uuid "434ee01d-0e9f-4741-bb87-c7310b1c068c")
 		(property "Reference" "D30"
-			(at 101.6 138.43 0)
+			(at 121.92 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12095,7 +11965,7 @@
 			)
 		)
 		(property "Value" "BAV70"
-			(at 101.6 140.97 0)
+			(at 121.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12103,7 +11973,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
-			(at 101.6 144.78 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12112,7 +11982,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
-			(at 101.6 144.78 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12121,7 +11991,7 @@
 			)
 		)
 		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
-			(at 101.6 144.78 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12130,7 +12000,7 @@
 			)
 		)
 		(property "LCSC" "C2501"
-			(at 101.6 144.78 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12139,7 +12009,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 101.6 144.78 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12148,7 +12018,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 101.6 144.78 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12157,7 +12027,7 @@
 			)
 		)
 		(property "ARROW_PART_NUMBER" ""
-			(at 101.6 144.78 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12166,7 +12036,7 @@
 			)
 		)
 		(property "ARROW_PRICE-STOCK" ""
-			(at 101.6 144.78 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12175,7 +12045,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 101.6 144.78 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12184,7 +12054,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 101.6 144.78 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12193,7 +12063,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 101.6 144.78 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12202,7 +12072,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 101.6 144.78 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12211,7 +12081,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 101.6 144.78 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19580,12 +19450,12 @@
 	(symbol
 		(lib_id "Diode:BAV70")
 		(at 223.52 99.06 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8238ddb3-263f-4298-81b7-7b301af247c8")
 		(property "Reference" "D21"
 			(at 223.52 92.71 0)
@@ -20089,167 +19959,6 @@
 			(project "SlothBoard2040"
 				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/e19c0ac6-6997-4642-b8af-d2ba23114a0a"
 					(reference "SW67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAV70")
-		(at 152.4 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "846ec71c-da26-4ec0-a421-070cdbaaa9fc")
-		(property "Reference" "D31"
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV70"
-			(at 152.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2501"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" ""
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE-STOCK" ""
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" ""
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" ""
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" ""
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" ""
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17ddd193-21ad-4d6e-8be1-49d15957de8e")
-		)
-		(pin "2"
-			(uuid "1ff58078-a900-460f-9a7e-50e8d804859e")
-		)
-		(pin "3"
-			(uuid "6b20f6cd-262c-4e53-9a3d-0b3bfc5202f0")
-		)
-		(instances
-			(project "SlothBoard2350.kicad_pro"
-				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/e19c0ac6-6997-4642-b8af-d2ba23114a0a"
-					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -21318,718 +21027,6 @@
 			(project "SlothBoard2040"
 				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/e19c0ac6-6997-4642-b8af-d2ba23114a0a"
 					(reference "SW60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 167.64 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a7add2e-4529-4e6b-bbb9-0c8f209c42a4")
-		(property "Reference" "SW64"
-			(at 167.64 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 167.64 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_2.25u"
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5156480"
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JlcRotOffset" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC MFG" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PART #" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MRF.PART" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERSION" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE-STOCK" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fcae402-66c9-469c-8b90-970bf169a1e0")
-		)
-		(pin "2"
-			(uuid "0a25bcb1-883f-4b5f-9898-03041484797e")
-		)
-		(instances
-			(project "SlothBoard2040"
-				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/e19c0ac6-6997-4642-b8af-d2ba23114a0a"
-					(reference "SW64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 139.7 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ac6ddbf-10c4-4eda-aff6-b1cb9b16898d")
-		(property "Reference" "SW62"
-			(at 139.7 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 139.7 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5156480"
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JlcRotOffset" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC MFG" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PART #" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MRF.PART" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERSION" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE-STOCK" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" ""
-			(at 139.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee9d4804-f52c-43c6-acc0-7a9b40ce69e8")
-		)
-		(pin "2"
-			(uuid "885f28b2-466b-4c0a-a6ef-5de2b0a96e64")
-		)
-		(instances
-			(project "SlothBoard2040"
-				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/e19c0ac6-6997-4642-b8af-d2ba23114a0a"
-					(reference "SW62")
 					(unit 1)
 				)
 			)
@@ -23420,362 +22417,6 @@
 			(project "SlothBoard2040"
 				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/e19c0ac6-6997-4642-b8af-d2ba23114a0a"
 					(reference "SW19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 116.84 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3489658-c7db-4517-8834-d4d6520a26b7")
-		(property "Reference" "SW61"
-			(at 116.84 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 116.84 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_2.75u"
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5156480"
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JlcRotOffset" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC MFG" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PART #" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MRF.PART" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERSION" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE-STOCK" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d11b958-22db-4bf5-bfa0-1c5159761793")
-		)
-		(pin "2"
-			(uuid "be324cce-9a4e-4899-b4b2-1df5260c0fe1")
-		)
-		(instances
-			(project "SlothBoard2040"
-				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/e19c0ac6-6997-4642-b8af-d2ba23114a0a"
-					(reference "SW61")
 					(unit 1)
 				)
 			)

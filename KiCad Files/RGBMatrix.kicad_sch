@@ -871,6 +871,12 @@
 		(uuid "16d8d68d-74b9-408e-a273-2d2ca8a26f34")
 	)
 	(junction
+		(at 307.34 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a0f6856-a5de-4c27-be02-6b0eef4b98df")
+	)
+	(junction
 		(at 111.76 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -985,10 +991,22 @@
 		(uuid "6733fb85-5bef-4f39-86af-28bfea764543")
 	)
 	(junction
+		(at 325.12 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "688eda13-7acc-4531-b765-9e4fb030f10e")
+	)
+	(junction
 		(at 218.44 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f120ee7-d7f3-44ca-abc0-a4043a56b942")
+	)
+	(junction
+		(at 314.96 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73d71f1d-4ca8-4a56-93d9-3d18a4fd3d23")
 	)
 	(junction
 		(at 279.4 86.36)
@@ -1043,6 +1061,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9980b74b-8d08-4987-b0f9-5915c70a417d")
+	)
+	(junction
+		(at 342.9 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d5844bf-358b-41fe-93a1-db19d95b28ee")
 	)
 	(junction
 		(at 147.32 76.2)
@@ -1135,10 +1159,22 @@
 		(uuid "e4df2579-058b-4716-b4fd-fe7fc8c68960")
 	)
 	(junction
+		(at 332.74 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5375b9e-a0b7-460f-8e36-6f4fdbb97b56")
+	)
+	(junction
 		(at 137.16 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6775fdd-07c2-4104-97dd-1787e85bda2c")
+	)
+	(junction
+		(at 332.74 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef40cce7-cd48-4d67-9b66-a207663b779b")
 	)
 	(junction
 		(at 165.1 81.28)
@@ -1147,10 +1183,22 @@
 		(uuid "f033bf96-62ef-4fd1-9535-58352b9cdae6")
 	)
 	(junction
+		(at 350.52 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f47052a6-ba2f-4c2d-9152-ed7c88ef6629")
+	)
+	(junction
 		(at 165.1 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7fc5eba-e03f-4ab5-8bda-a39566ed23d5")
+	)
+	(junction
+		(at 325.12 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd9c3f95-300d-4a7b-812b-0f2861668c63")
 	)
 	(junction
 		(at 154.94 86.36)
@@ -1159,8 +1207,8 @@
 		(uuid "fdaaac13-da7a-475a-992c-1e5bfb13aaa3")
 	)
 	(no_connect
-		(at 312.42 68.58)
-		(uuid "680ef408-738e-4e82-bf70-a4645395cce7")
+		(at 347.98 68.58)
+		(uuid "506c950f-bbe6-42d2-8171-87853285d0c7")
 	)
 	(wire
 		(pts
@@ -1191,6 +1239,16 @@
 			(type default)
 		)
 		(uuid "0861b17a-4b4b-44be-a330-9f66df54c72d")
+	)
+	(wire
+		(pts
+			(xy 332.74 86.36) (xy 314.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ad82e8-9938-46c2-a305-5b632e3b69e9")
 	)
 	(wire
 		(pts
@@ -1324,6 +1382,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 81.28) (xy 325.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f8f6dd-26d5-4bdf-81ce-0a0933eb43f1")
+	)
+	(wire
+		(pts
 			(xy 111.76 68.58) (xy 111.76 76.2)
 		)
 		(stroke
@@ -1331,6 +1399,16 @@
 			(type default)
 		)
 		(uuid "1d8ab313-d30e-4642-b270-4900506d5cd4")
+	)
+	(wire
+		(pts
+			(xy 327.66 71.12) (xy 327.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2080f6e3-28f7-4629-b2e6-ed0a72c31cc4")
 	)
 	(wire
 		(pts
@@ -1404,6 +1482,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 68.58) (xy 325.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25dc27da-1360-4413-bba7-78d9388e459c")
+	)
+	(wire
+		(pts
 			(xy 259.08 71.12) (xy 274.32 71.12)
 		)
 		(stroke
@@ -1421,6 +1509,16 @@
 			(type default)
 		)
 		(uuid "27fa3854-7467-474b-bf76-9015c0206be9")
+	)
+	(wire
+		(pts
+			(xy 345.44 71.12) (xy 345.44 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2c87ec-c86b-4d21-a94a-aeafc8820cda")
 	)
 	(wire
 		(pts
@@ -1531,6 +1629,16 @@
 			(type default)
 		)
 		(uuid "3fb027ee-d12e-44d1-8514-6e64749a954a")
+	)
+	(wire
+		(pts
+			(xy 350.52 76.2) (xy 350.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ca5d16-9cbe-4d56-baa9-fe4dbfe3f924")
 	)
 	(wire
 		(pts
@@ -1794,6 +1902,36 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 71.12) (xy 327.66 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73735980-9b67-4915-9f25-7828652661b5")
+	)
+	(wire
+		(pts
+			(xy 332.74 76.2) (xy 332.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ed383a-a63d-48eb-8d11-181871fcf04d")
+	)
+	(wire
+		(pts
+			(xy 350.52 68.58) (xy 350.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7870c2e4-ce3e-4fff-9c9b-ba57b0aca240")
+	)
+	(wire
+		(pts
 			(xy 96.52 71.12) (xy 96.52 68.58)
 		)
 		(stroke
@@ -1814,6 +1952,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 71.12) (xy 345.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bdd7db9-8d7e-43c6-80ed-63decebf4778")
+	)
+	(wire
+		(pts
 			(xy 182.88 76.2) (xy 182.88 81.28)
 		)
 		(stroke
@@ -1821,6 +1969,16 @@
 			(type default)
 		)
 		(uuid "7d16c9df-bca4-4479-9205-94e02195606d")
+	)
+	(wire
+		(pts
+			(xy 350.52 86.36) (xy 332.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcfe4c2-df81-4e26-bcc8-e850f6427ea6")
 	)
 	(wire
 		(pts
@@ -1891,6 +2049,16 @@
 			(type default)
 		)
 		(uuid "94810a6a-dbe4-411a-bb61-d5b4078aa735")
+	)
+	(wire
+		(pts
+			(xy 342.9 68.58) (xy 342.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96264841-63b3-46d3-87d8-807e81245a06")
 	)
 	(wire
 		(pts
@@ -2001,6 +2169,16 @@
 			(type default)
 		)
 		(uuid "aa1e358a-2f98-461a-ba37-d1be1ddd2c7f")
+	)
+	(wire
+		(pts
+			(xy 330.2 68.58) (xy 330.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab5736a9-6dc2-4442-a029-2e7481a2e827")
 	)
 	(wire
 		(pts
@@ -2174,6 +2352,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 68.58) (xy 332.74 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19c0d07-285f-4624-b4f6-5d237060b44f")
+	)
+	(wire
+		(pts
 			(xy 271.78 68.58) (xy 271.78 76.2)
 		)
 		(stroke
@@ -2181,6 +2369,16 @@
 			(type default)
 		)
 		(uuid "d1f83fa2-4679-4448-800c-e3122c253cf9")
+	)
+	(wire
+		(pts
+			(xy 342.9 76.2) (xy 342.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30f4eb7-2c8c-4ffc-a7f2-155fabb8abee")
 	)
 	(wire
 		(pts
@@ -2274,6 +2472,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 68.58) (xy 312.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2df6d3a-b305-47a2-a858-8f5b578f90c5")
+	)
+	(wire
+		(pts
 			(xy 243.84 68.58) (xy 243.84 76.2)
 		)
 		(stroke
@@ -2301,6 +2509,16 @@
 			(type default)
 		)
 		(uuid "e79d8612-dd5a-4229-b904-95adf5efb4e3")
+	)
+	(wire
+		(pts
+			(xy 325.12 76.2) (xy 325.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e927ad62-e152-45a0-8067-a065eff556f5")
 	)
 	(wire
 		(pts
@@ -2391,6 +2609,16 @@
 			(type default)
 		)
 		(uuid "f9eca45c-59df-413d-a23f-a52e67b5db39")
+	)
+	(wire
+		(pts
+			(xy 325.12 81.28) (xy 307.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3102e5-6606-431b-9f2c-1bd98dcacef0")
 	)
 	(wire
 		(pts
@@ -3396,6 +3624,82 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 346.71 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "57772034-6312-4d3d-998e-c548536573b4")
+		(property "Reference" "C16"
+			(at 346.71 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 346.71 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 350.52 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 346.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 346.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e48bcf3-7083-4e3f-a5f3-3c998dc9cda8")
+		)
+		(pin "1"
+			(uuid "fa442ac5-454e-4421-9b8c-7e0254eaae4a")
+		)
+		(instances
+			(project "Slothie60_rev1b"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
 		(at 186.69 59.69 90)
 		(unit 1)
@@ -3713,6 +4017,169 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 328.93 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "706586be-294b-49ca-9fea-bef09bbb4a9d")
+		(property "Reference" "C15"
+			(at 328.93 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 328.93 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric_Pad1.08x0.95mm"
+			(at 332.74 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 328.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 328.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c936de0b-d732-48a2-9ec4-7d39fc7c35bd")
+		)
+		(pin "1"
+			(uuid "ee51c680-c457-424b-af71-3ae9079e0cbe")
+		)
+		(instances
+			(project "Slothie60_rev1b"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 346.71 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7523945c-852e-45ad-bf32-447c608e7f5e")
+		(property "Reference" "LED16"
+			(at 354.33 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 354.33 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 341.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 344.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "244f61f2-5c38-4aa1-b595-f135bbd21883")
+		)
+		(pin "2"
+			(uuid "0bb8b8b3-2ed6-40d8-9f45-24f44accc97a")
+		)
+		(pin "3"
+			(uuid "ed8dcf60-033a-4424-99e9-276f4d468b0a")
+		)
+		(pin "4"
+			(uuid "cca55adb-65fa-4fbf-84ab-18fb5940cd2c")
+		)
+		(instances
+			(project "Slothie60_rev1b"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
 		(at 168.91 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3783,6 +4250,93 @@
 			(project "SlothBoard_rev1"
 				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:Worldsemi_WS2812B")
+		(at 328.93 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83bf4bd0-8665-4ad2-9d6e-512767e1c777")
+		(property "Reference" "LED15"
+			(at 336.55 57.3023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Worldsemi_WS2812C"
+			(at 336.55 59.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 328.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 323.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital RGB LED, PLCC-4 5.0x5.0mm, Alternate KiCad Library"
+			(at 326.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114587"
+			(at 328.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "372de72d-2dd7-4fa0-a4a8-33ba1a05c038")
+		)
+		(pin "2"
+			(uuid "c4dfac61-7e7d-4e47-a048-79d23df61460")
+		)
+		(pin "3"
+			(uuid "382612fd-e594-4274-82ca-81bed4058680")
+		)
+		(pin "4"
+			(uuid "595d30d2-13c4-4069-ba49-363bae835c1f")
+		)
+		(instances
+			(project "Slothie60_rev1b"
+				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f/62b6f0fa-e36c-4424-a3e1-7ab96ad56dd0"
+					(reference "LED15")
 					(unit 1)
 				)
 			)

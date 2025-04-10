@@ -4054,10 +4054,6 @@
 		(uuid "60ede5d3-465a-4fd3-b44e-6ef89f51a711")
 	)
 	(no_connect
-		(at 137.16 121.92)
-		(uuid "69fd9765-a20c-4888-9aae-4282a284f7f3")
-	)
-	(no_connect
 		(at 95.25 127)
 		(uuid "6dc3926d-f883-439f-9d7c-640e0900d4cc")
 	)
@@ -4068,6 +4064,10 @@
 	(no_connect
 		(at 95.25 129.54)
 		(uuid "776b9bd8-15da-4c3a-aeb7-5b5aa15a8085")
+	)
+	(no_connect
+		(at 137.16 119.38)
+		(uuid "77d5c068-dabe-42a6-9adf-6d5475362c84")
 	)
 	(no_connect
 		(at 99.06 101.6)
@@ -5565,6 +5565,28 @@
 			)
 		)
 	)
+	(global_label "RGB"
+		(shape input)
+		(at 137.16 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c76709d-6557-45c8-ba70-21ba555ff396")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.9552 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col4"
 		(shape input)
 		(at 95.25 114.3 180)
@@ -5737,28 +5759,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RGB"
-		(shape input)
-		(at 137.16 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "93d89c72-a148-4a48-a0d6-0cc24ecb4c4c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.9552 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -13373,7 +13373,7 @@
 			)
 		)
 		(instances
-			(project "Slothie60_rev1a"
+			(project "Slothie60_rev1b"
 				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f"
 					(page "3")
 				)
@@ -13415,7 +13415,7 @@
 			)
 		)
 		(instances
-			(project "Slothie60_rev1a"
+			(project "Slothie60_rev1b"
 				(path "/9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f"
 					(page "2")
 				)
