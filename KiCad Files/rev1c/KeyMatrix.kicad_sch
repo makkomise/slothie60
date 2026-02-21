@@ -401,12 +401,6 @@
 		(uuid "e2e69a53-bf24-4ad4-b8f4-d4598f98542d")
 	)
 	(junction
-		(at 144.78 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01d6877c-fdcb-4978-bd4e-1a2a916e7b99")
-	)
-	(junction
 		(at 220.98 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -743,6 +737,12 @@
 		(uuid "ae1ae7d2-b990-4bd0-8ae4-07866d6ad0ca")
 	)
 	(junction
+		(at 144.78 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8994911-5047-41a9-b27c-daaa1f02a6e5")
+	)
+	(junction
 		(at 170.18 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -795,6 +795,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1e58279-a7a8-40fd-bdd2-affd7deebf18")
+	)
+	(junction
+		(at 139.7 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3b5afad-7879-4f0f-8b06-e21833935c29")
 	)
 	(junction
 		(at 134.62 68.58)
@@ -867,12 +873,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eee9f618-8e93-49b8-adea-2f978752229d")
-	)
-	(junction
-		(at 139.7 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efececc8-0b58-4a67-9586-bf92051fb22a")
 	)
 	(junction
 		(at 220.98 114.3)
@@ -1368,6 +1368,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 137.16) (xy 147.32 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3098baa5-d14c-4976-b4d9-d0fdfa1452d7")
+	)
+	(wire
+		(pts
 			(xy 83.82 114.3) (xy 83.82 137.16)
 		)
 		(stroke
@@ -1465,16 +1475,6 @@
 			(type default)
 		)
 		(uuid "35890eda-e69b-4cd3-8969-15c43eb30e44")
-	)
-	(wire
-		(pts
-			(xy 139.7 142.24) (xy 142.24 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35d8f67e-483f-4617-8d3a-90c46d2f9863")
 	)
 	(wire
 		(pts
@@ -2088,6 +2088,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 142.24) (xy 142.24 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a23ee97-7ebe-4439-b6d3-ab5729d34a02")
+	)
+	(wire
+		(pts
 			(xy 50.8 152.4) (xy 71.12 152.4)
 		)
 		(stroke
@@ -2525,16 +2535,6 @@
 			(type default)
 		)
 		(uuid "c16bac84-7a88-466b-9dea-ab067f051b94")
-	)
-	(wire
-		(pts
-			(xy 144.78 137.16) (xy 147.32 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1c22455-d80d-4b0d-a116-a761480f9215")
 	)
 	(wire
 		(pts
@@ -23334,7 +23334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_2.75u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
 			(at 116.84 139.7 0)
 			(effects
 				(font
@@ -25769,7 +25769,7 @@
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 144.78 139.7 0)
-		(mirror x)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -25777,7 +25777,7 @@
 		(dnp no)
 		(uuid "c5fd5838-3f11-4fca-8be5-9705a957a09c")
 		(property "Reference" "SW72"
-			(at 144.78 147.32 0)
+			(at 144.78 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25785,14 +25785,14 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 144.78 144.78 0)
+			(at 144.78 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_2.75u"
 			(at 144.78 139.7 0)
 			(effects
 				(font
