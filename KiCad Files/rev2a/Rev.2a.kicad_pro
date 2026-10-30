@@ -54,18 +54,18 @@
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
-          "fill_mode": 0,
-          "hatch_gap": 1.5,
-          "hatch_orientation": 0.0,
-          "hatch_smoothing_level": 0,
+          "fill_mode": 1,
+          "hatch_gap": 1.016,
+          "hatch_orientation": 45.0,
+          "hatch_smoothing_level": 1,
           "hatch_smoothing_value": 0.1,
-          "hatch_thickness": 1.0,
-          "min_clearance": 0.254,
-          "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "hatch_thickness": 1.016,
+          "min_clearance": 0.0,
+          "min_island_area": 30.0,
+          "min_thickness": 0.3,
           "pad_connection": 1,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "remove_islands": 2,
+          "thermal_relief_gap": 0.3,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -149,20 +149,20 @@
         "max_error": 0.005,
         "min_clearance": 0.1778,
         "min_connection": 0.127,
-        "min_copper_edge_clearance": 0.1524,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.1524,
-        "min_hole_to_hole": 0.1524,
+        "min_hole_clearance": 0.15,
+        "min_hole_to_hole": 0.15,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.1524,
-        "min_track_width": 0.16,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.1778,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.0,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -516,7 +516,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.260721,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -538,6 +538,23 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "All Nets",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -553,7 +570,6 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
-        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR",
@@ -583,10 +599,6 @@
       },
       {
         "netclass": "PWR",
-        "pattern": "+1V1"
-      },
-      {
-        "netclass": "PWR",
         "pattern": "+3.3V"
       },
       {
@@ -610,7 +622,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 14,
+    "annotate_start_num": 0,
     "annotation": {
       "method": 0,
       "sort_order": 1
@@ -888,7 +900,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -947,7 +959,7 @@
         "uuid": "9e336a8f-411c-4dde-8c95-c2c4ac1e5a1f"
       }
     ],
-    "used_designators": "SW1-70,#PWR3,#PWR5-8,#PWR10-34,D1-103,C1-70,R1-4,LD1-65,U1-5,XC2,X1,RPC2-12,RC2-3,RF2,USB_R3,FR2,Reset2,FB1",
+    "used_designators": "SW1-72,#PWR1-34,D1-103,C1-70,#FLG1-3,R1-4,LD1-65,U1-5,XC2,REG_C1-2,X1,RPC2-12,S2-8,RC2-3,RF2,USB_R1-3,FR2,Reset2,FB1,ESD1,H15,LED2-14,BOOT_R1,BOOTSW1,F1,MCU1,MCU_C1-9,REG1,USB1",
     "variants": []
   },
   "sheets": [
