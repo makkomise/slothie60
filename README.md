@@ -1,17 +1,18 @@
 # Slothie60
 
-## 60% ISO keyboard
+## 60% ISO/ANSI keyboard
 
 - GH60-Compatible
 - Underglow
-- Support for split Right Shift and stepped Caps
-- Support for QMK/VIAL
+- QMK/VIAL compatible
 
+## Supports:
+  - ISO or ANSI-layout
+  - 1.25U or 2.25U Left Shift
+  - 1.75U or 2.75U Right Shift
+  - 6.25U or 2.75U/1.25U/2.25U Space bar 
 
-![image](https://i.imgur.com/p1GuzG0.png)
-
-![image](https://i.imgur.com/x3n6Hry.png)
-![image](https://i.imgur.com/MzQCfoy.png)
+![image](https://raw.githubusercontent.com/makkomise/slothie60/refs/heads/main/src/layout.png)
 
 ORDERING AT YOUR OWN RESPONSIBILITY! While i have confirmed that this works, order at your own discretion.
 
@@ -27,4 +28,3 @@ Firmware-folder has all the files needed for you to either modify and compile yo
 
 
 Keyboard made under CERN-OHL-W v2 license.
-
