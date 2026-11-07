@@ -7,7 +7,6 @@
     "features": {
         "bootmagic": true,
         "extrakey": true,
-        "mousekey": true,
         "nkro": true,
         "rgblight": true
     },
@@ -26,7 +25,7 @@
             "static_gradient": true,
             "twinkle": true
         },
-        "led_count": 16,
+        "led_count": 14,
 		"sleep": true
     },
     "url": "https://github.com/makkomise/slothie60",
@@ -41,13 +40,6 @@
     "indicators": {
         "caps_lock": "B6"
     },
-    "community_layouts": [
-        "60_ansi",
-        "60_ansi_split_rshift",
-        "60_iso",
-        "60_iso_split_rshift",
-
-    ],
     "layouts": {
         "LAYOUT_60_ansi": {
             "layout": [
